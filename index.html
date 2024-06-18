@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <div class="container" id="main-content">
+        <div class="category">
+            <a href="https://www.youtube.com" target="_blank">YouTube Tutorials</a>
+        </div>
+        <div class="category">
+            <a href="https://medium.com" target="_blank">Medium Blogs</a>
+        </div>
+        <div class="category">
+            <a href="#" id="about-us-link">About Us</a>
+        </div>
+        <div class="category">
+            <a href="https://www.linkedin.com" target="_blank">
+                <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <i class="bi bi-instagram"></i>
+            </a>
+        </div>
+    </div>
+    <div id="about-us-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" id="close-modal">&times;</span>
+            <div class="profile mili">
+                <img src="images/icon-mili.png" alt="icon mili">
+                <div class="description">
+                    <h2>Mili Sucevic</h2>
+                    <p>DevOps Engineer with extensive knowledge in AWS, EKS, Terraform, Ansible, CICD, Python and Bash Scripting.</p>
+                </div>
+            </div>
+            <div class="profile">
+                <img src="images/icon-ana.png" alt="icon ana">
+                <div class="description">
+                    <h2>Ana Quirosa</h2>
+                    <p>Photographer and Designer who is also expanding her skillset in Front-End Development, focusing on HTML, CSS, JavaScript, React  and more!</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
